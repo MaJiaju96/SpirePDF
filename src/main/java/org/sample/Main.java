@@ -1,6 +1,11 @@
 package org.sample;
 
 import com.spire.pdf.PdfDocument;
+import com.spire.pdf.graphics.PdfMargins;
+import com.spire.pdf.htmlconverter.LoadHtmlType;
+import com.spire.pdf.htmlconverter.qt.HtmlConverter;
+import com.spire.pdf.htmlconverter.qt.Size;
+import com.spire.pdf.license.LicenseProvider;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.*;
@@ -60,6 +65,8 @@ public class Main {
 //    public static void main(String[] args)  {
 //
 //        try{
+//            LicenseProvider.setLicenseKey("key");
+//
 //            String htmlString = System.getProperty("htmlString");
 //            String pluginPath = System.getProperty("pluginPath");
 //
